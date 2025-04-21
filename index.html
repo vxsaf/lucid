@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCID</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center/cover; /* خلفية الصورة */
+            color: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .logo img {
+            width: 100px; /* حجم الشعار */
+        }
+        .nav-links, .social-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a, .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .nav-links a:hover, .social-links a:hover {
+            color: #87CEEB;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            height: 90vh;
+            padding: 50px;
+            text-align: right;
+        }
+        .content {
+            max-width: 500px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #87CEEB;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #5aaedb;
+        }.footer {
+            background: rgba(0, 0, 0, 0.7); /* خلفية سوداء شفافة */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* تنسيق روابط التواصل الاجتماعي */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #87CEEB; /* لون عند التحويل */
+        }
+    </style>
+</head>
+<body>
+
+ <div class="header">
+        <div class="logo">
+            <img src="logo9.png" alt="شعار الكلية التقنية">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#section1">Video</a></li>
+        </ul>
+		
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h1>LUCID</h1>
+            <p>مرحبًا بكم في منصة LUCID، حيث نقدم أحدث المعلومات حول التكنولوجيا والتعليم التقني.</p>
+            <a href="lu.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<!--  section1 starts -->
+<section class="video" id="section1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<video width="50%"height="100%"controls>
+
+<source src="LUL.mp4"type="video/mp4">
+
+
+</video>
+<!-- section1 ends -->
+    <style>
+        body {
+            background-image: url('OIP3.WEBP'); /* استبدل بالمسار الصحيح */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+			
+        }
+    </style>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقارنة السيارات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+            text-align: center; /* توسيط النص */
+            background-color: #f9f9f9; /* لون خلفية خفيف */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* جعل المحتوى في منتصف الصفحة */
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 60%; /* حجم متوسط */
+            border-collapse: collapse;
+            font-size: 18px;
+          
+            box-shadow: 0px 0px 10px rgba(1, 1, 1, 1.1); /* إضافة ظل خفيف */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+        .footer p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        /* زر العودة للأعلى */
+        .top-link {
+            display: block;
+            margin-top: 20px;
+            color: #87CEEB;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .top-link:hover {
+            color: #5aaedb;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>مقارنة السيارات</h1>
+        <table>
+            <tr>
+                <th>السيارة</th>
+                <th>السعر</th>
+                <th>الفئة المستهدفة</th>
+                <th>الإمكانية</th>
+            </tr>
+            <tr>
+                <td>لوسيد</td>
+                <td>تبدأ من 400 ألف ريال</td>
+                <td>فاخرة</td>
+                <td>مخصصة لفئة معينة</td>
+            </tr>
+            <tr>
+                <td>سير</td>
+                <td>لم يُذكر</td>
+                <td>شعبية</td>
+                <td>يمكن لأي شخص شراؤها</td>
+            </tr>
+        </table>
+    </div>
+ <a href="#top" class="top-link">العودة إلى الأعلى ↑</a>    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط مواقع التواصل</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- ربط ملف CSS -->
+</head>
+<body>
+
+     <!-- روابط التواصل الاجتماعي في تذييل الصفحة -->
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/LucidMotors" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.x.com/lucidmotors" target="_blank" class="twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/lucidmotors/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/lucidmotors/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/lucidmotors" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+     <p>By Technical College Students</p>
+
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+<link rel="stylesheet" type="tesxt/css" href="style.css">
+</head>
+<body>
+
+</body>
+</html>
